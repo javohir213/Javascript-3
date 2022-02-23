@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency converter</title>
+  <link rel="stylesheet" href="./css/bootstrap.css">
+</head>
+<body class="bg-success">
+  <div class="container">
+
+  <h1 class="h1 text-center mb-3">
+    Currency converter Money Gram
+  </h1>
+  <!-- action="https://echo.htmlacademy.ru/" -->
+  <form class="form text-center" method="post" autocomplete="off">
+    <div class="d-flex">
+      <input class="form-control w-25 me-auto" type="number" name="input money" placeholder="Enter the money $" aria-label="Enter the money $">
+      <div class="d-flex">
+
+        <select class="form-select w-25 w-100 me-4" aria-label="Select the Currency">
+          <option selected disabled>Select the Currency</option>
+          <option value="10897">UZS</option>
+          <option value="81">RUBL</option>
+          <option value="0.88">EURO</option>
+        </select>
+
+        <button type="submit" class="btn btn-outline-dark">Bos</button>
+      </div>
+    </div>
+    <span class="form__span span display-3"></span>
+  </form>
+
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+</html>
